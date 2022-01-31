@@ -43,6 +43,14 @@ console.log(sum)
     Create a variable called me and assign to it an object containing the following information: name = your name, surname = your surname, age = your age.
 */
 
+printHeader ("EXERCISE 4")
+let me = {
+    name: "Ana",
+    surname: "Matei",
+    age: 22
+}
+
+console.log(me)
 /* EXERCISE E
     Write a piece of code for programmatically removing the age property from the previously create object.
 */
