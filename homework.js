@@ -15,6 +15,14 @@ ASSIGNMENT RULES
    Create a variable called test and assign a string value to it.
 */
 
+const printHeader = function (nameOfExercise) {
+    console.log(`\n------${nameOfExercise}----`)
+}
+
+printHeader ("EXERCISE 1")
+
+let test = "Hello";
+console.log(test);
 
 /* EXERCISE B
     Create a variable called sum and assign to it the result of the sum between the numbers 10 and 20.
