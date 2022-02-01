@@ -19,7 +19,7 @@ const printHeader = function (nameOfExercise) {
     console.log(`\n------${nameOfExercise}----`)
 }
 
-printHeader ("EXERCISE 1")
+printHeader ("EXERCISE A")
 
 let test = "Hello";
 console.log(test);
@@ -28,7 +28,7 @@ console.log(test);
     Create a variable called sum and assign to it the result of the sum between the numbers 10 and 20.
 */
 
-printHeader ("EXERCISE 2")
+printHeader ("EXERCISE B")
 
 let a = 10;
 let b = 20;
@@ -39,11 +39,14 @@ console.log(sum)
     Create a variable called random and assign to it a random number between 0 and 20 (it should be randomly created at each execution).
 */
 
+
 /* EXERCISE D
     Create a variable called me and assign to it an object containing the following information: name = your name, surname = your surname, age = your age.
 */
 
-printHeader ("EXERCISE 4")
+
+
+printHeader ("EXERCISE D")
 let me = {
     name: "Ana",
     surname: "Matei",
@@ -55,10 +58,11 @@ console.log(me)
     Write a piece of code for programmatically removing the age property from the previously create object.
 */
 
-printHeader ("EXERCISE 5")
+printHeader ("EXERCISE E")
 
 delete me.age
 console.log (me)
+
 
 /* EXERCISE F
    Write a piece of code for programmatically adding to the me object you defined before an array called skills, containing the programming languages you know right now.
