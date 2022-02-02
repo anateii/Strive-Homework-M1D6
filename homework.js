@@ -74,6 +74,8 @@ me.array.push(skills)
 
 console.log(me.array)
 
+/*me.skills = ['HTML','CSS','JavaScript']
+console.log(me)*/
 
 /* EXERCISE G
    Write a piece of code for programmatically removing the last skill from the skills array inside the me object.
